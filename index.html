@@ -6,35 +6,98 @@
     <title>My First Webpage</title>
 </head>
 <body>
-    <h1>Welcome to [Your Name]'s Portfolio</h1>
-    <h2>About Me</h2>
-    <p>Hi! I'm a student at University of Baguio studying BSIT. I'm excited to learn web development!</p>
+    <header>
+        <h1>Welcome to Dwayne's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm a student at University of Baguio studying BSIT.</p>
+        </section>
+
+        <section id="interests">
+            <h2>My Interests</h2>
+            <p>I enjoy Watching movies.</p>
+        </section>
+    </main>
+
+    <section>
+        <h2>My Class Schedule</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>PROGIT1</td>
+                    <td>MATH1</td>
+                    <td>PROGIT1</td>
+                    <td>MATH1</td>
+                    <td>INTRCS1</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>PROGIT1</td>
+                    <td>PROGIT1</td>
+                    <td>PROGIT1</td>
+                    <td>PROGIT1</td>
+                    <td>INTRCS1</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>PROGIT1</td>
+                    <td>PROGIT1</td>
+                    <td>PROGIT1</td>
+                    <td>PROGIT1</td>
+                    <td>INTRCS1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     
-    <h2>My Interests</h2>
-    <p>I enjoy watching movies & Sleeping.</p>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <label for="year">Academic Year:</label><br>
+            <select id="year" name="year">
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select><br><br>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
     
-    <h3>Academic Goals</h3>
-    <p>This semester, I hope to master all the lessons.</p>
 
-    <p>I am <strong>passionate</strong> about learning new technologies.</p>
-    <p>My favorite quote is: <em>"The only way to do great work is to love what you do."</em></p>
-    <p>You can contact me at <mark>20233231@s.ubaguio.edu</mark></p>
-
-    <h2>My Favorite Subjects</h2>
-<ul>
-    <li>Mathematics</li>
-    <li>HUMCOM</li>
-    <li>Programming</li>
-</ul>
-
-<h2>My Daily Schedule</h2>
-<ol>
-    <li>Wake up at 9:00 AM</li>
-    <li>Attend morning classes</li>
-    <li>Lunch</li>
-    <li>Exercise or relax</li>
-    <li>Evening do my assignments</li>
-</ol>
+    <footer>
+        <p>&copy; 2025 Dwayne Seguin. All rights reserved.</p>
 
 <h2>Useful Links</h2>
 <p>Visit my university's website: <a href="https://ubaguio.edu/">University Homepage</a></p>
@@ -46,5 +109,5 @@
 <h2>My Favorite Place</h2>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbwtbVzMsZbuiuQmxXTTxVTrfAZtFPFOK0A&s" 
      alt="A beautiful landscape" width="300" height="200">
+    </footer>
 </body>
-</html>
