@@ -1,13 +1,1 @@
 # My-webpage
-<!DOCTYPE html>
-<html lang ="en">
-<head>
-    <meta charsel="UTF-8">
-    <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
-    <title>My First Webpage</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is my first webpage.</p>
-</body>
-</html>
