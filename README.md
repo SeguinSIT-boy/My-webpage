@@ -1,1 +1,123 @@
 # My-webpage
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dwayne's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm a student at University of Baguio studying BSIT.</p>
+        </section>
+        
+        <footer>
+        <h2>Useful Links</h2>
+<p>Visit my university's website: <a href="https://ubaguio.edu/">University Homepage</a></p>
+<p>Check out this helpful resource: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></p>
+
+<h2>My Photo</h2>
+<img src="https://image.tmdb.org/t/p/w235_and_h235_face/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg" alt="Photo of Dwayne" width="200" height="200">
+
+<h2>My Favorite Place</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbwtbVzMsZbuiuQmxXTTxVTrfAZtFPFOK0A&s" 
+     alt="A beautiful landscape" width="300" height="200">
+    </footer>
+
+        <section id="interests">
+            <h2>My Interests</h2>
+            <p>I enjoy Watching movies.</p>
+        </section>
+    </main>
+
+<section>
+    <h2>Fun Facts About Me</h2>
+    <ul>
+        <li>I can <strong>speak 2</strong> languages</li>
+        <li>My favorite food is <em>Adobo</em></li>
+        <li>I've visited <mark> 2 </mark> different countries/states</li>
+    </ul>
+</section>
+
+    <section>
+        <h2>My Class Schedule</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>PROGIT1</td>
+                    <td>MATH1</td>
+                    <td>PROGIT1</td>
+                    <td>MATH1</td>
+                    <td>INTRCS1</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>INRRCS1</td>
+                    <td>PROGIT1</td>
+                    <td>INTRCS1</td>
+                    <td>PROGIT1</td>
+                    <td>INTRCS1</td>
+                </tr>
+                <tr>
+                    <td>1:00 AM</td>
+                    <td>LITERA1</td>
+                    <td>NSTPRO1</td>
+                    <td>LITERA1</td>
+                    <td>NSTPRO1</td>
+                    <td>LITERA1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <label for="year">Academic Year:</label><br>
+            <select id="year" name="year">
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select><br><br>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Dwayne Seguin. All rights reserved.</p>
+    </footer>
