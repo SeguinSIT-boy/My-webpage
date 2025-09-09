@@ -18,13 +18,13 @@
         </nav>
     </header>
 
-    <main>
+<main>
         <section id="about">
             <h2>About Me</h2>
             <p>Hi! I'm a student at University of Baguio studying BSIT.</p>
         </section>
 
-        <footer>
+    <footer>
         <h2>Useful Links</h2>
 <p>Visit my university's website: <a href="https://ubaguio.edu/">University Homepage</a></p>
 <p>Check out this helpful resource: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></p>
@@ -37,11 +37,11 @@
      alt="A beautiful landscape" width="300" height="200">
     </footer>
 
-        <section id="interests">
+<section id="interests">
             <h2>My Interests</h2>
             <p>I enjoy Watching movies.</p>
         </section>
-    </main>
+</main>
 
 <section>
     <h2>Fun Facts About Me</h2>
@@ -52,7 +52,7 @@
     </ul>
 </section>
 
-    <section>
+<section>
         <h2>My Class Schedule</h2>
         <table border="1">
             <thead>
@@ -94,19 +94,19 @@
         </table>
     </section>
 
-    <section id="contact">
+<section id="contact">
         <h2>Contact Me</h2>
         <form>
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">Email:</label><br>
+<label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
 
-            <label for="message">Message:</label><br>
+<label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
 
-            <label for="year">Academic Year:</label><br>
+ <label for="year">Academic Year:</label><br>
             <select id="year" name="year">
                 <option value="freshman">Freshman</option>
                 <option value="sophomore">Sophomore</option>
@@ -114,10 +114,11 @@
                 <option value="senior">Senior</option>
             </select><br><br>
 
-            <input type="submit" value="Send Message">
-        </form>
-    </section>
+<input type="submit" value="Send Message">
 
-    <footer>
-        <p>&copy; 2025 Dwayne Seguin. All rights reserved.</p>
-    </footer>
+</form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dwayne Seguin. All rights reserved.</p>
+</footer>
