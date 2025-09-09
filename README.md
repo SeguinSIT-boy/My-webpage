@@ -24,11 +24,11 @@
             <p>Hi! I'm a student at University of Baguio studying BSIT.</p>
         </section>
 
-    <footer>
+<footer>
         <h2>Useful Links</h2>
 <p>Visit my university's website: <a href="https://ubaguio.edu/">University Homepage</a></p>
 <p>Check out this helpful resource: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></p>
-
+    
 <h2>My Photo</h2>
 <img src="https://image.tmdb.org/t/p/w235_and_h235_face/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg" alt="Photo of Dwayne" width="200" height="200">
 
